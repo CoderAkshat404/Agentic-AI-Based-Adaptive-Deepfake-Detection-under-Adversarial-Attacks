@@ -1,0 +1,6 @@
+{
+  "_note": "Chosen on the VALIDATION split by scripts/tune_ensemble.py (see results/ensemble_tuning.json). Clean path: 97.2% clean / 94.8% phone-style (old: 96.8 / 90.5). Threat path: 88.8% FGSM / 91.8% PGD (old: 86.8 / 89.5).",
+  "fast_pair": ["baseline", "vit"],
+  "clean": {"baseline": 0.25, "vit": 0.25, "robust": 0.1, "clip": 0.4},
+  "threat": {"vit": 0.5, "clip": 0.5}
+}

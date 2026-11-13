@@ -1,0 +1,90 @@
+{
+ "eq_clip": [
+  1121,
+  97
+ ],
+ "eq_conf": [
+  1657,
+  104
+ ],
+ "eq_cue": [
+  746,
+  152
+ ],
+ "eq_damage": [
+  465,
+  138
+ ],
+ "eq_ensemble": [
+  938,
+  137
+ ],
+ "eq_fgsm": [
+  999,
+  87
+ ],
+ "eq_fgsmrs": [
+  1615,
+  87
+ ],
+ "eq_hf": [
+  548,
+  206
+ ],
+ "eq_pgd": [
+  1513,
+  95
+ ],
+ "eq_psnr": [
+  844,
+  114
+ ],
+ "eq_squeeze": [
+  1217,
+  89
+ ],
+ "eq_threat": [
+  858,
+  121
+ ],
+ "eq_tv": [
+  921,
+  149
+ ],
+ "fig_agent1_cm": [
+  1173,
+  1090
+ ],
+ "fig_architecture": [
+  1966,
+  2416
+ ],
+ "fig_attack_example": [
+  2961,
+  1625
+ ],
+ "fig_benchmark": [
+  2308,
+  1257
+ ],
+ "fig_diversity": [
+  2308,
+  1178
+ ],
+ "fig_eps": [
+  1890,
+  1067
+ ],
+ "fig_phone_aug": [
+  2961,
+  654
+ ],
+ "fig_versions": [
+  2215,
+  1121
+ ],
+ "nitrr_logo": [
+  418,
+  449
+ ]
+}

@@ -1,0 +1,113 @@
+{
+  "n_images": 256,
+  "eps": "4/255",
+  "pgd_steps": 10,
+  "graph_engine": "LangGraph",
+  "p_adv_threshold": 0.65,
+  "results": {
+    "Clean": {
+      "Traditional (EfficientNet-B0)": {
+        "accuracy": 0.88671875,
+        "fake_detection_rate": 0.8515625,
+        "auc": 0.9610595703125
+      },
+      "Static defense (JPEG + baseline)": {
+        "accuracy": 0.875,
+        "fake_detection_rate": 0.8125,
+        "auc": 0.9586181640625
+      },
+      "Adv-trained CNN only": {
+        "accuracy": 0.8828125,
+        "fake_detection_rate": 0.8359375,
+        "auc": 0.95635986328125
+      },
+      "Agentic AI (full)": {
+        "accuracy": 0.91796875,
+        "fake_detection_rate": 0.890625,
+        "auc": 0.97589111328125
+      },
+      "_agent1_flag_rate": 0.04296875,
+      "_latency_ms_mean": 371.6270613281258
+    },
+    "FGSM": {
+      "Traditional (EfficientNet-B0)": {
+        "accuracy": 0.328125,
+        "fake_detection_rate": 0.2109375,
+        "auc": 0.28375244140625
+      },
+      "Static defense (JPEG + baseline)": {
+        "accuracy": 0.1484375,
+        "fake_detection_rate": 0.109375,
+        "auc": 0.06103515625
+      },
+      "Adv-trained CNN only": {
+        "accuracy": 0.54296875,
+        "fake_detection_rate": 0.6796875,
+        "auc": 0.5703125
+      },
+      "Agentic AI (full)": {
+        "accuracy": 0.65625,
+        "fake_detection_rate": 0.4921875,
+        "auc": 0.787353515625
+      },
+      "_agent1_flag_rate": 0.99609375,
+      "_latency_ms_mean": 653.0961117187503,
+      "_attack_damage_reduction_pct": 53.14685314685315
+    },
+    "PGD": {
+      "Traditional (EfficientNet-B0)": {
+        "accuracy": 0.00390625,
+        "fake_detection_rate": 0.0078125,
+        "auc": 0.0040283203125
+      },
+      "Static defense (JPEG + baseline)": {
+        "accuracy": 0.171875,
+        "fake_detection_rate": 0.1796875,
+        "auc": 0.06878662109375
+      },
+      "Adv-trained CNN only": {
+        "accuracy": 0.1484375,
+        "fake_detection_rate": 0.078125,
+        "auc": 0.05487060546875
+      },
+      "Agentic AI (full)": {
+        "accuracy": 0.83984375,
+        "fake_detection_rate": 0.7421875,
+        "auc": 0.93218994140625
+      },
+      "_agent1_flag_rate": 1.0,
+      "_latency_ms_mean": 633.3399765624985,
+      "_attack_damage_reduction_pct": 91.1504424778761
+    },
+    "PGD-adaptive (targets robust CNN)": {
+      "Traditional (EfficientNet-B0)": {
+        "accuracy": 0.19921875,
+        "fake_detection_rate": 0.234375,
+        "auc": 0.0938720703125
+      },
+      "Static defense (JPEG + baseline)": {
+        "accuracy": 0.65625,
+        "fake_detection_rate": 0.6640625,
+        "auc": 0.65826416015625
+      },
+      "Adv-trained CNN only": {
+        "accuracy": 0.0,
+        "fake_detection_rate": 0.0,
+        "auc": 0.0
+      },
+      "Agentic AI (full)": {
+        "accuracy": 0.7890625,
+        "fake_detection_rate": 0.6953125,
+        "auc": 0.9034423828125
+      },
+      "_agent1_flag_rate": 0.97265625,
+      "_latency_ms_mean": 628.7977097656246
+    }
+  },
+  "headline": {
+    "robust_accuracy_under_attack": 0.748046875,
+    "clean_auc": 0.97589111328125,
+    "latency_clean_ms": 371.6270613281258,
+    "latency_attacked_ms": 633.3399765624985
+  }
+}

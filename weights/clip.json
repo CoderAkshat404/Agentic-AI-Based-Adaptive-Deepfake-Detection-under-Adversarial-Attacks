@@ -1,0 +1,12 @@
+{
+  "name": "clip",
+  "arch": "vit_base_patch16_clip_224.openai",
+  "train_images": 16000,
+  "epochs": 0,
+  "init": "CLIP (frozen) + linear probe",
+  "best_val_acc": 0.9125,
+  "val_phone_style_acc": 0.87625,
+  "val_auc": 0.9663765625,
+  "C": 0.05,
+  "minutes": 0
+}

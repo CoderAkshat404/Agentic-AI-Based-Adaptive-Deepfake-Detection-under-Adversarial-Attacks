@@ -1,0 +1,23 @@
+# Python / environments
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset (re-download with: python scripts/download_data.py)
+data/
+
+# Large or temporary model files
+# CLIP full model (343 MB) is rebuilt from the public OpenAI weights + weights/clip_head.pt
+weights/clip.pt
+weights/*_ckpt.*
+weights/*_best.*
+weights/*.tmp
+
+# Caches and logs
+results/cache/
+results/*.log
+
+# Node / Office temporary files
+node_modules/
+~$*
+*.tmp

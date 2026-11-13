@@ -1,0 +1,16 @@
+{
+  "name": "robust",
+  "arch": "efficientnet_b0",
+  "train_images": 12000,
+  "epochs": 1,
+  "init": "baseline",
+  "best_val_acc": 0.9425,
+  "history": [
+    {
+      "epoch": 1,
+      "val_acc": 0.9425,
+      "val_auc": 0.986078125
+    }
+  ],
+  "minutes": 9.4
+}

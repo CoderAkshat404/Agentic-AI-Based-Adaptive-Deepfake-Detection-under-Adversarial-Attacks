@@ -1,0 +1,36 @@
+{
+  "n_images": 96,
+  "attack": "PGD-10 on traditional",
+  "results": {
+    "0": {
+      "traditional": 0.9375,
+      "agentic": 0.9583333333333334,
+      "agent1_flag_rate": 0.0
+    },
+    "1": {
+      "traditional": 0.0,
+      "agentic": 0.8854166666666666,
+      "agent1_flag_rate": 1.0
+    },
+    "2": {
+      "traditional": 0.010416666666666666,
+      "agentic": 0.90625,
+      "agent1_flag_rate": 1.0
+    },
+    "4": {
+      "traditional": 0.010416666666666666,
+      "agentic": 0.90625,
+      "agent1_flag_rate": 1.0
+    },
+    "8": {
+      "traditional": 0.020833333333333332,
+      "agentic": 0.8958333333333334,
+      "agent1_flag_rate": 1.0
+    },
+    "12": {
+      "traditional": 0.5625,
+      "agentic": 0.90625,
+      "agent1_flag_rate": 1.0
+    }
+  }
+}
